@@ -38,7 +38,7 @@ function Search({ query, setquery }) {
   return (
     <div className="search-cont">
       <div className="search-title">
-        <h3>Movies similar to {query}</h3>
+        <h3>Showes similar to {query}</h3>
       </div>
       <div className="search-img-cont">
         <div className="search-img">

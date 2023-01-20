@@ -51,7 +51,7 @@ function Detail() {
           ) : (
             <div className="detail-cont">
               <div className="detail-img">
-                <img src={detail.image.original}></img>
+                <img src={detail.image?.original} alt={detail?.name}></img>
               </div>
               <div className="detail-info">
                 <div className="detail-title">
