@@ -1,16 +1,18 @@
 import React, { useState, useEffect } from "react";
 import request from "../axios";
 import "./Search.css";
-
+import requests from "../request";
+import axios from "axios";
 import { Loading } from "@nextui-org/react";
 
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 function Search({ query, setquery }) {
   const [show, setshow] = useState({});
   const [loading, setloading] = useState(true);
   const navigate = useNavigate();
 
+  const baseURL = "/search/shows?q=";
   const fecthpost = async () => {
     setloading(true);
     const params = {
@@ -19,8 +21,7 @@ function Search({ query, setquery }) {
       },
     };
 
-    const result = await request.get(`/search/shows?q=:`, params);
-    console.log(request);
+    const result = await request.get(`/search/shows?q=:${query}`);
     setshow(result.data);
 
     setloading(false);
@@ -28,10 +29,10 @@ function Search({ query, setquery }) {
   useEffect(() => {
     fecthpost();
   }, [query]);
-  console.log(show);
+
   const handleclik = (id) => {
     navigate(`/detail/${id}`);
-    console.log(id);
+
     setquery("");
   };
   return (

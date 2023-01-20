@@ -40,11 +40,9 @@ function Row({ title, fetchUrl, query, tvid, settvid }) {
     });
   };
   const handleclik = (id) => {
-    console.log(id);
     settvid(id);
     navigate(`/detail/${id}`);
   };
-  console.log(show);
 
   return (
     <div className="row-cont">

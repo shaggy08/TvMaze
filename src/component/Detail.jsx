@@ -15,7 +15,7 @@ function Detail() {
 
   const [detail, setdeatil] = useState({});
   const [cast, setcast] = useState({});
-  const rating = "5.5";
+  const rating = 5.5;
   const fetchpost = async () => {
     setloading(true);
     const result = await request.get(`/shows/${id}`);
