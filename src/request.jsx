@@ -1,11 +1,11 @@
 const requests = [
   {
-    title: "Action",
-    URL: `/search/shows?q=action`,
-  },
-  {
     title: "Romance",
     URL: `/search/shows?q=romance`,
+  },
+  {
+    title: "Action",
+    URL: `/search/shows?q=action`,
   },
   {
     title: "Horror",

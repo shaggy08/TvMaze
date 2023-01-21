@@ -39,10 +39,11 @@
 }
 .img:hover {
   cursor: pointer;
+  filter: brightness(105%);
+
+  transform: scale(1.04);
+  transition: transform 500ms;
 }
 .row-btn:hover {
   cursor: pointer;
 }
-/* .css-i4bv87-MuiSvgIcon-root {
-  color: white;
-} */
