@@ -35,6 +35,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  color: white;
   /* background-color: rgb(238, 236, 236); */
 }
 .footer-filed {
@@ -45,7 +46,8 @@ footer {
   font-size: 2.08rem;
   margin: 0 0.8rem;
   background-color: transparent;
-  color: black;
+  color: white;
+  /* color: black; */
 }
 .footer-detils {
   margin-bottom: 2rem;

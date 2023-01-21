@@ -18,10 +18,9 @@
 
   display: grid;
   grid-template-columns: repeat(5, auto);
+  grid-gap: 10px;
 }
 
 .searchimg {
-  padding-top: 2px;
-  padding-right: 8px;
-  padding-left: 8px;
+  border-radius: 24px;
 }

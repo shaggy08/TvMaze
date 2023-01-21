@@ -9,9 +9,10 @@
 }
 .nav-items {
   align-items: center;
-  background-color: #fff;
+  background-color: black;
+  /* background-color: #fff; */
   display: flex;
-  height: 62px;
+  /* height: 62px; */
   width: 100%;
   padding-right: 20px;
   justify-content: space-between;
@@ -19,14 +20,18 @@
 .nav-logo-name {
   display: flex;
   align-items: center;
+  /* font-size: 24px; */
+
+  font-size: 28px;
+  font-weight: 700;
 }
 .nav-name {
   margin-left: 20px;
 }
 
 .logo {
-  width: 60px;
-  height: 60px;
+  /* width: 60px; */
+  height: 80px;
   align-items: center;
   display: flex;
   margin-top: 4px;

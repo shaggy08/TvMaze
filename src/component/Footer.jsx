@@ -35,7 +35,7 @@ function Footer() {
       </div>
       <div className="footer-detils">
         <p>©2021-2023 TV MAZE, Inc.</p>
-        <p>Handcrafted by Sahil</p>
+        <p>Handcrafted by Sahil Malik</p>
       </div>
     </div>
   );

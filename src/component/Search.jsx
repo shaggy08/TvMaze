@@ -53,7 +53,6 @@ function Search({ query, setquery }) {
                 alt={data.show?.name}
                 onClick={() => handleclik(data.show.id)}
               ></img>
-              // <Card1 imgurl={data.image.medium} name={data.name} />
             ))
           )}
         </div>

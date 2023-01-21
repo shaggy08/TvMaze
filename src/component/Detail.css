@@ -3,6 +3,7 @@
   display: flex;
   margin-top: 40px;
   height: 80vh;
+  color: white;
 }
 .detail-img {
   flex: 1;
