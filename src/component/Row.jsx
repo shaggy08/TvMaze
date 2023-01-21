@@ -70,7 +70,7 @@ function Row({ title, fetchUrl, query, tvid, settvid }) {
         </div>
         <button className="row-btn" onClick={handleRight}>
           {" "}
-          <ArrowForwardIosIcon />
+          <ArrowForwardIosIcon css={{ color: "white" }} />
         </button>
       </div>
     </div>

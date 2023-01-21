@@ -34,12 +34,15 @@
   border: 0;
   background-color: currentColor;
 }
+.row-btn svg {
+  color: white;
+}
 .img:hover {
   cursor: pointer;
 }
 .row-btn:hover {
   cursor: pointer;
 }
-.css-i4bv87-MuiSvgIcon-root {
+/* .css-i4bv87-MuiSvgIcon-root {
   color: white;
-}
+} */
